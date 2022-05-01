@@ -1,0 +1,14 @@
+Sitemap: https://tubaraorosa.com/sitemap.xml
+
+User-agent: *
+Allow: /
+Allow: /arc/views/
+Disallow: /admin/
+Disallow: /src/
+Disallow: /src/views/pages/404.php
+Disallow: /controllers/
+Disallow: /assets/
+Disallow: /models/
+Disallow: /core/
+Disallow: /vendor/
+Disallow: /config.php

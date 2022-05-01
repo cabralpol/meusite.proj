@@ -1,0 +1,71 @@
+body.modal-open[style] {
+  padding-right: 0px !important;
+}
+
+#mainNav {
+  background-color: #7d0087;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active:hover,
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: #fff;
+  background: #e10af1;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #e10af1;
+}
+
+#portfolio .fade,
+#themes .fade {
+  opacity: 0;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  background-color: #e10af194;
+}
+
+#portfolio .fade:hover,
+#themes .fade:hover {
+  opacity: 1;
+}
+
+.div-whatsapp {
+  z-index: 1042;
+  bottom: 80px;
+  right: 16px;
+}
+
+.div-tel {
+  z-index: 1042;
+  bottom: 80px;
+  right: 16px;
+}
+
+#pagamento hr {
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  width: 50px;
+}
+
+#pagamento .col:hover hr {
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  width: 110px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+#messageModal .modal-content,
+#recaptchaModal .modal-content {
+  border-radius: 20px;
+}
+
+#messageModal p,
+#recaptchaModal p {
+  margin: auto;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+/*# sourceMappingURL=mystyle.css.map */
